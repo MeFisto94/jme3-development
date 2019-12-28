@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'idea'
+
+mainClassName = 'com.jme3.development.Main'
+
+dependencies {
+    compile project(':jme3-core')
+    compile project(':jme3-desktop')
+    compile project(':jme3-lwjgl3')
+}
